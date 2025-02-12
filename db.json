@@ -71,6 +71,30 @@
       "content": "The United States has a total of 50 states. If you have any specific questions about any of the states or need more information, feel free to ask!",
       "id": "b9e9d0ad-c000-49f3-bb18-7081dcd3b3d2",
       "createdAt": "2025-02-11T04:38:30.542Z"
+    },
+    {
+      "role": "user",
+      "content": "what is my name",
+      "id": "940fd7a8-12e2-4691-84a9-7d71cd02786a",
+      "createdAt": "2025-02-12T03:06:21.592Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Your name is Aniket. How can I assist you further?",
+      "id": "576b99ed-2eae-4eaf-b036-b92e34cfc32e",
+      "createdAt": "2025-02-12T03:06:22.820Z"
+    },
+    {
+      "role": "user",
+      "content": "what is best time to visit my country",
+      "id": "2a3a8af1-0121-4ed5-8501-08a08c1fe803",
+      "createdAt": "2025-02-12T03:06:41.232Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The best time to visit the United States can vary greatly depending on the region you plan to visit, as the country has diverse climates and attractions. Here are some general guidelines:\n\n1. **Spring (March to May)**: \n   - A great time to visit many parts of the U.S. as the weather is mild and flowers are blooming. Popular destinations include Washington, D.C. for the cherry blossoms and national parks for spring wildflowers.\n\n2. **Summer (June to August)**: \n   - Ideal for visiting northern states and national parks, but it can be hot and humid in many southern areas. Popular for beach vacations and outdoor activities.\n\n3. **Fall (September to November)**: \n   - Known for beautiful fall foliage, especially in the Northeast. The weather is generally pleasant, making it a great time for outdoor activities and festivals.\n\n4. **Winter (December to February)**: \n   - Best for winter sports in places like Colorado and Vermont. Southern states like Florida and California are popular for warm-weather escapes.\n\nIf you have a specific region or city in mind, I can provide more detailed recommendations!",
+      "id": "d866d5b1-1898-48e6-af69-f0975c8748b9",
+      "createdAt": "2025-02-12T03:06:45.781Z"
     }
   ]
 }
