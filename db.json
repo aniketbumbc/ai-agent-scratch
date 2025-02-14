@@ -2,98 +2,77 @@
   "messages": [
     {
       "role": "user",
-      "content": "how  is the weather",
-      "id": "97e68a62-e95c-4867-bbb2-31ce9aa8fe94",
-      "createdAt": "2025-02-13T08:06:00.803Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Could you please specify the location for which you would like to know the weather?",
-      "refusal": null,
-      "id": "1d01c724-b1f0-4a69-97bc-362167befc7f",
-      "createdAt": "2025-02-13T08:06:03.066Z"
-    },
-    {
-      "role": "user",
-      "content": "mumbai",
-      "id": "7ce96236-b33f-4aeb-873c-ffb1f134147a",
-      "createdAt": "2025-02-13T08:06:16.620Z"
+      "content": "what is current weather in pune",
+      "id": "80389dac-5664-4a55-bb34-f8e9ba34ca70",
+      "createdAt": "2025-02-14T03:28:58.748Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_swIQfiYGG3KEqEaKONeUhzIk",
+          "id": "call_Ntw7aJTNhiNp5psHXl4j4r1H",
           "type": "function",
           "function": {
             "name": "get_weather",
-            "arguments": "{\"reasoning\":\"To provide the current weather information for Mumbai.\"}"
+            "arguments": "{\"reasoning\":\"To provide the current weather information for Pune.\"}"
           }
         }
       ],
       "refusal": null,
-      "id": "e9778c86-5748-4ea0-903b-49c067a88c3c",
-      "createdAt": "2025-02-13T08:06:17.698Z"
+      "id": "456f13b5-4ade-46f5-8e7b-2160d96feaa2",
+      "createdAt": "2025-02-14T03:29:00.084Z"
     },
     {
       "role": "tool",
       "content": "hot 80deg",
-      "tool_call_id": "call_swIQfiYGG3KEqEaKONeUhzIk",
-      "id": "9ef3754b-dc46-4adb-91f6-7c3edfc0043d",
-      "createdAt": "2025-02-13T08:06:17.700Z"
-    },
-    {
-      "role": "user",
-      "content": "what was weather again",
-      "id": "071a993b-b242-4ce5-93e3-a67e70f540a2",
-      "createdAt": "2025-02-13T08:15:08.408Z"
+      "tool_call_id": "call_Ntw7aJTNhiNp5psHXl4j4r1H",
+      "id": "c3911683-69a5-4ddc-94bd-fa5aa5bf6728",
+      "createdAt": "2025-02-14T03:29:00.087Z"
     },
     {
       "role": "assistant",
-      "content": "The current weather in Mumbai is hot, with a temperature of 80°F.",
+      "content": "The current weather in Pune is hot, with a temperature of 80°F.",
       "refusal": null,
-      "id": "0ee3f49a-06d3-4d09-ae76-f776040312ef",
-      "createdAt": "2025-02-13T08:15:09.615Z"
+      "id": "bd083a2b-e89d-4e42-92b1-54b5d7cf2051",
+      "createdAt": "2025-02-14T03:29:01.003Z"
     },
     {
       "role": "user",
-      "content": "can i wear hoody in mumbai",
-      "id": "23b4fa8d-37ab-419b-ab48-e570790bbd6b",
-      "createdAt": "2025-02-13T08:15:33.131Z"
+      "content": "what is weather now",
+      "id": "278042b8-7a12-4d37-aaa3-1b950e047d24",
+      "createdAt": "2025-02-14T03:32:55.977Z"
     },
     {
       "role": "assistant",
-      "content": "Given that the weather in Mumbai is currently hot at 80°F, wearing a hoodie may not be comfortable. It's generally better to wear lighter clothing in such warm conditions.",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Vt2aTggnY9xOvat8n3sPU22B",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{\"reasoning\":\"To provide the current weather information.\"}"
+          }
+        }
+      ],
       "refusal": null,
-      "id": "e6604fb4-c2e7-4b53-a848-5e348339613f",
-      "createdAt": "2025-02-13T08:15:34.185Z"
+      "id": "91bcd544-7888-492a-bbe1-08b917580508",
+      "createdAt": "2025-02-14T03:32:57.037Z"
     },
     {
-      "role": "user",
-      "content": "what is current weather",
-      "id": "eaff1cb3-7b28-42f8-8e26-f2deebf5634e",
-      "createdAt": "2025-02-13T08:16:24.841Z"
+      "role": "tool",
+      "content": "hot 20deg",
+      "tool_call_id": "call_Vt2aTggnY9xOvat8n3sPU22B",
+      "id": "2fd23a90-5558-4e10-864b-05fc643c3be3",
+      "createdAt": "2025-02-14T03:32:57.039Z"
     },
     {
       "role": "assistant",
-      "content": "The current weather in Mumbai is hot, with a temperature of 80°F.",
+      "content": "The current weather is hot, with a temperature of 20°C.",
       "refusal": null,
-      "id": "b76cfb03-df59-453a-b782-4f774405b065",
-      "createdAt": "2025-02-13T08:16:25.694Z"
-    },
-    {
-      "role": "user",
-      "content": "what is current weather now",
-      "id": "942a0b4f-143d-46e4-bef8-5d120a17ada4",
-      "createdAt": "2025-02-13T08:16:39.429Z"
-    },
-    {
-      "role": "assistant",
-      "content": "The current weather in Mumbai is hot, with a temperature of 80°F.",
-      "refusal": null,
-      "id": "6ea89527-f023-4d85-a589-fbb5ebce029b",
-      "createdAt": "2025-02-13T08:16:40.336Z"
+      "id": "e5cc46e1-8808-4a40-aa94-65606ddeae36",
+      "createdAt": "2025-02-14T03:32:58.060Z"
     }
   ]
 }

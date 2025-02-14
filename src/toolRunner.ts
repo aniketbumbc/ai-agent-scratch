@@ -1,6 +1,6 @@
 import type OpenAI from 'openia'
 
-const getWeather = () => 'hot 80deg'
+const getWeather = () => 'hot 20deg'
 
 export const runTool = async (
   toolCall: OpenAI.Chat.CompletionMessageToolCall,
