@@ -2,77 +2,53 @@
   "messages": [
     {
       "role": "user",
-      "content": "what is current weather in pune",
-      "id": "80389dac-5664-4a55-bb34-f8e9ba34ca70",
-      "createdAt": "2025-02-14T03:28:58.748Z"
+      "content": "make meme on cricket joke",
+      "id": "1d34e749-431e-4031-be88-9d0ee8f0e71f",
+      "createdAt": "2025-02-14T06:57:04.545Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_Ntw7aJTNhiNp5psHXl4j4r1H",
+          "id": "call_l9pIVZtuvtu6k1LB4dJ0lSpa",
           "type": "function",
           "function": {
-            "name": "get_weather",
-            "arguments": "{\"reasoning\":\"To provide the current weather information for Pune.\"}"
+            "name": "generate_image",
+            "arguments": "{\"prompt\":\"A humorous meme about cricket featuring a cartoon character holding a cricket bat, looking confused. The text on the meme says: 'Why did the cricket team go to the bank? Because they wanted to get their wickets!'\"}"
           }
         }
       ],
       "refusal": null,
-      "id": "456f13b5-4ade-46f5-8e7b-2160d96feaa2",
-      "createdAt": "2025-02-14T03:29:00.084Z"
+      "id": "ae926af2-3e86-43a2-b723-51ff408e2c7e",
+      "createdAt": "2025-02-14T06:57:06.590Z"
     },
     {
       "role": "tool",
-      "content": "hot 80deg",
-      "tool_call_id": "call_Ntw7aJTNhiNp5psHXl4j4r1H",
-      "id": "c3911683-69a5-4ddc-94bd-fa5aa5bf6728",
-      "createdAt": "2025-02-14T03:29:00.087Z"
+      "content": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-lSTTRj5LYS4XMywborWd3PFa/user-9I39YqfijOIGJaoJkxIcUmuG/img-G5HfFTdpr0Mey17aLhwNvGtn.png?st=2025-02-14T05%3A57%3A15Z&se=2025-02-14T07%3A57%3A15Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-02-13T08%3A41%3A20Z&ske=2025-02-14T08%3A41%3A20Z&sks=b&skv=2024-08-04&sig=PqlIaC0lTcI12ApqkWStI/Ria5eRm6lRyXGoCYR8lDo%3D",
+      "tool_call_id": "call_l9pIVZtuvtu6k1LB4dJ0lSpa",
+      "id": "1ed32df4-d7cb-4270-a304-7e4573fa0a73",
+      "createdAt": "2025-02-14T06:57:15.312Z"
     },
     {
       "role": "assistant",
-      "content": "The current weather in Pune is hot, with a temperature of 80°F.",
+      "content": "Here's a cricket meme for you:\n\n![Cricket Meme](https://oaidalleapiprodscus.blob.core.windows.net/private/org-lSTTRj5LYS4XMywborWd3PFa/user-9I39YqfijOIGJaoJkxIcUmuG/img-G5HfFTdpr0Mey17aLhwNvGtn.png?st=2025-02-14T05%3A57%3A15Z&se=2025-02-14T07%3A57%3A15Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-02-13T08%3A41%3A20Z&ske=2025-02-14T08%3A41%3A20Z&sks=b&skv=2024-08-04&sig=PqlIaC0lTcI12ApqkWStI/Ria5eRm6lRyXGoCYR8lDo%3D)\n\nThe text reads: \"Why did the cricket team go to the bank? Because they wanted to get their wickets!\" Enjoy!",
       "refusal": null,
-      "id": "bd083a2b-e89d-4e42-92b1-54b5d7cf2051",
-      "createdAt": "2025-02-14T03:29:01.003Z"
+      "id": "ab31da59-3e0e-4719-b105-b0f2a6e4e14a",
+      "createdAt": "2025-02-14T06:57:19.664Z"
     },
     {
       "role": "user",
-      "content": "what is weather now",
-      "id": "278042b8-7a12-4d37-aaa3-1b950e047d24",
-      "createdAt": "2025-02-14T03:32:55.977Z"
+      "content": "what is time and date",
+      "id": "d82cdf92-122f-48cc-9993-e2658173bc12",
+      "createdAt": "2025-02-14T07:00:01.439Z"
     },
     {
       "role": "assistant",
-      "content": null,
-      "tool_calls": [
-        {
-          "id": "call_Vt2aTggnY9xOvat8n3sPU22B",
-          "type": "function",
-          "function": {
-            "name": "get_weather",
-            "arguments": "{\"reasoning\":\"To provide the current weather information.\"}"
-          }
-        }
-      ],
+      "content": "The current date is February 14, 2025. The time is not specified, but you can check your device for the exact time.",
       "refusal": null,
-      "id": "91bcd544-7888-492a-bbe1-08b917580508",
-      "createdAt": "2025-02-14T03:32:57.037Z"
-    },
-    {
-      "role": "tool",
-      "content": "hot 20deg",
-      "tool_call_id": "call_Vt2aTggnY9xOvat8n3sPU22B",
-      "id": "2fd23a90-5558-4e10-864b-05fc643c3be3",
-      "createdAt": "2025-02-14T03:32:57.039Z"
-    },
-    {
-      "role": "assistant",
-      "content": "The current weather is hot, with a temperature of 20°C.",
-      "refusal": null,
-      "id": "e5cc46e1-8808-4a40-aa94-65606ddeae36",
-      "createdAt": "2025-02-14T03:32:58.060Z"
+      "id": "20f2cada-b20a-49e9-92da-b1b5d5d86bf1",
+      "createdAt": "2025-02-14T07:00:03.541Z"
     }
   ]
 }
