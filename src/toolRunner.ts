@@ -5,6 +5,7 @@ import {
 } from './tools/generationImage'
 import { dadJoke, dadJokeToolDefinition } from './tools/joke'
 import { reddit, redditToolDefinition } from './tools/reddit'
+import { getWeather, getWeatherToolDefinition } from './tools/getWeather'
 
 export const runTool = async (
   toolCall: OpenAI.Chat.CompletionMessageToolCall,
@@ -24,6 +25,8 @@ export const runTool = async (
 
     case redditToolDefinition.name:
       return reddit(input)
+    case getWeatherToolDefinition.name:
+      return getWeather(input.toolArgs.city)
 
     default:
       return `Never run this tool: ${toolCall.function.name} agin, or else!`
