@@ -3,7 +3,7 @@ import * as dotenv from 'dotenv'
 dotenv.config({ path: '../../.env' })
 import { z } from 'zod'
 
-console.log('Into getWeather')
+//console.log('Into getWeather')
 
 export const getWeatherToolDefinition = {
   name: 'getWeather',
@@ -19,7 +19,7 @@ const API_KEY = process.env.WEATHER_API_KEY
 const BASE_URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}`
 
 export const getWeather = async (city: string): Promise<any> => {
-  console.log('into FUnction getwather before try ', city)
+  //console.log('into FUnction getwather before try ', city)
   try {
     const url = `${BASE_URL}&q=${city}&aqi=no`
     const res = await fetch(`${url}`, {

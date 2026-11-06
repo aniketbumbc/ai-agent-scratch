@@ -1,3 +1,226 @@
 {
-  "messages": []
+  "messages": [
+    {
+      "role": "user",
+      "content": "tell me a joke",
+      "id": "43614780-df43-46f4-b01e-dfd0c7ba6f5f",
+      "createdAt": "2025-03-07T16:43:25.393Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_W9y4e1ieaepErTXl2LuI8y7L",
+          "type": "function",
+          "function": {
+            "name": "dad_joke",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "0a8ba7e4-1e55-4b7c-9db4-fdb01c969732",
+      "createdAt": "2025-03-07T16:43:36.071Z"
+    },
+    {
+      "role": "tool",
+      "content": "Ben & Jerry's really need to improve their operation. The only way to get there is down a rocky road.",
+      "tool_call_id": "call_W9y4e1ieaepErTXl2LuI8y7L",
+      "id": "037160c2-38d4-406c-a130-5c13d81409a5",
+      "createdAt": "2025-03-07T16:43:36.699Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a joke for you: \n\nBen & Jerry's really need to improve their operation. The only way to get there is down a rocky road.",
+      "refusal": null,
+      "id": "e281b0a2-43ff-44d5-a84d-3cf2afa62a79",
+      "createdAt": "2025-03-07T16:43:37.716Z"
+    },
+    {
+      "role": "user",
+      "content": "tell me a joke with image",
+      "id": "7804d94b-714f-4f36-81b2-20195cc4670f",
+      "createdAt": "2025-03-07T16:44:53.171Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_kv8hA1laCFMbg9uPrgTHgFte",
+          "type": "function",
+          "function": {
+            "name": "generate_image",
+            "arguments": "{\"prompt\":\"A humorous cartoon depicting a cow sitting on a rocky road, looking frustrated, with ice cream cones scattered around. The cow has a speech bubble saying, 'I just wanted to get to Ben & Jerry's!'\"}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "87dd00ab-a213-4e93-b54b-31a2a8688792",
+      "createdAt": "2025-03-07T16:44:55.271Z"
+    },
+    {
+      "role": "tool",
+      "content": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-lSTTRj5LYS4XMywborWd3PFa/user-9I39YqfijOIGJaoJkxIcUmuG/img-rMaxtnTYfGLTQDH2GuoQfJS5.png?st=2025-03-07T15%3A45%3A05Z&se=2025-03-07T17%3A45%3A05Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-06T23%3A48%3A36Z&ske=2025-03-07T23%3A48%3A36Z&sks=b&skv=2024-08-04&sig=FM%2BN9iF0hup6xi8UilV8m%2BK3tP/GFRrbXojK3TJqwnc%3D",
+      "tool_call_id": "call_kv8hA1laCFMbg9uPrgTHgFte",
+      "id": "6d03abcb-a310-4573-b120-22133f28ded2",
+      "createdAt": "2025-03-07T16:45:05.919Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a joke with an image:\n\n![Joke Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-lSTTRj5LYS4XMywborWd3PFa/user-9I39YqfijOIGJaoJkxIcUmuG/img-rMaxtnTYfGLTQDH2GuoQfJS5.png?st=2025-03-07T15%3A45%3A05Z&se=2025-03-07T17%3A45%3A05Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-06T23%3A48%3A36Z&ske=2025-03-07T23%3A48%3A36Z&sks=b&skv=2024-08-04&sig=FM%2BN9iF0hup6xi8UilV8m%2BK3tP/GFRrbXojK3TJqwnc%3D)\n\nThe cow is saying, \"I just wanted to get to Ben & Jerry's!\" Enjoy!",
+      "refusal": null,
+      "id": "6ed3c326-9883-42b7-85c8-5f096e3f69a2",
+      "createdAt": "2025-03-07T16:45:12.133Z"
+    },
+    {
+      "role": "user",
+      "content": "What is weather of NYC",
+      "id": "40592163-bf35-433d-9404-a4ba985aa131",
+      "createdAt": "2025-03-07T16:47:03.926Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_QWvlQeOPT5DLzJCKwnwSdSvq",
+          "type": "function",
+          "function": {
+            "name": "getWeather",
+            "arguments": "{\"city\":\"New York City\"}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "0104999f-4aa3-409a-953e-6c3009fe455f",
+      "createdAt": "2025-03-07T16:47:05.702Z"
+    },
+    {
+      "role": "tool",
+      "content": "{\"location\":{\"name\":\"New York\",\"region\":\"New York\",\"country\":\"United States of America\",\"lat\":40.714,\"lon\":-74.006,\"tz_id\":\"America/New_York\",\"localtime_epoch\":1741366025,\"localtime\":\"2025-03-07 11:47\"},\"current\":{\"last_updated_epoch\":1741365900,\"last_updated\":\"2025-03-07 11:45\",\"temp_c\":5.6,\"temp_f\":42.1,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":19.7,\"wind_kph\":31.7,\"wind_degree\":288,\"wind_dir\":\"WNW\",\"pressure_mb\":1005,\"pressure_in\":29.67,\"precip_mm\":0,\"precip_in\":0,\"humidity\":29,\"cloud\":75,\"feelslike_c\":0.7,\"feelslike_f\":33.3,\"windchill_c\":0.7,\"windchill_f\":33.3,\"heatindex_c\":5.6,\"heatindex_f\":42.1,\"dewpoint_c\":-4.7,\"dewpoint_f\":23.6,\"vis_km\":16,\"vis_miles\":9,\"uv\":3.7,\"gust_mph\":23.1,\"gust_kph\":37.1}}",
+      "tool_call_id": "call_QWvlQeOPT5DLzJCKwnwSdSvq",
+      "id": "ca3994e2-0acb-4c0b-bbda-7cd31f9998b1",
+      "createdAt": "2025-03-07T16:47:06.340Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The current weather in New York City is as follows:\n\n- **Temperature:** 5.6°C (42.1°F)\n- **Condition:** Partly cloudy\n- **Wind:** 19.7 mph (31.7 kph) from the WNW\n- **Humidity:** 29%\n- **Feels Like:** 0.7°C (33.3°F)\n\nIt's a bit chilly, so make sure to dress warmly if you're heading out!",
+      "refusal": null,
+      "id": "dc3649eb-e7f0-4b68-a573-c2b7a57f0561",
+      "createdAt": "2025-03-07T16:47:08.492Z"
+    },
+    {
+      "role": "user",
+      "content": "tell me nice joke",
+      "id": "8a341d78-62e6-49ae-8481-65ba6466e27f",
+      "createdAt": "2025-03-07T16:47:23.229Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_C4oYtAMxk8axbEGC4sdwtmb1",
+          "type": "function",
+          "function": {
+            "name": "dad_joke",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "2f2c716a-3f42-4909-b103-efb25362726c",
+      "createdAt": "2025-03-07T16:47:24.370Z"
+    },
+    {
+      "role": "tool",
+      "content": "Why should you never trust a pig with a secret? Because it's bound to squeal.",
+      "tool_call_id": "call_C4oYtAMxk8axbEGC4sdwtmb1",
+      "id": "b6024747-4de8-4c82-9dd5-e4b1fcc8c988",
+      "createdAt": "2025-03-07T16:47:25.003Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a nice joke for you:\n\nWhy should you never trust a pig with a secret? Because it's bound to squeal.",
+      "refusal": null,
+      "id": "7652f545-09ff-4032-9d9b-3ba75e115381",
+      "createdAt": "2025-03-07T16:47:26.412Z"
+    },
+    {
+      "role": "user",
+      "content": "what trump post today",
+      "id": "1e215f8c-343c-4f7f-87b8-68f7adab73db",
+      "createdAt": "2025-03-07T16:47:42.538Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_WHwjEuCYnDN7ziQg6NnIsuUp",
+          "type": "function",
+          "function": {
+            "name": "reddit",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "d0a1b99f-dc02-4b92-afc6-40e329fb0ab8",
+      "createdAt": "2025-03-07T16:47:43.518Z"
+    },
+    {
+      "role": "tool",
+      "content": "[\n  {\n    \"title\": \"Daily General Discussion and Match Links Thread - March 07, 2025\",\n    \"link\": \"https://www.reddit.com/r/Cricket/comments/1j5bxup/daily_general_discussion_and_match_links_thread/\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"AutoModerator\",\n    \"upvotes\": 3\n  },\n  {\n    \"title\": \"Free Talk Friday\",\n    \"link\": \"https://www.reddit.com/r/Cricket/comments/1j5bzuv/free_talk_friday/\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"AutoModerator\",\n    \"upvotes\": 2\n  },\n  {\n    \"title\": \"India's health ministry wants to ban promotion of tobacco and alcohol brands in the Indian Premier League (IPL) to curb the growing influence of sin goods makers.\",\n    \"link\": \"https://www.bloomberg.com/news/articles/2025-03-07/india-health-ministry-tells-cricket-league-to-ban-tobacco-liquor-brand-ads\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Odd-House3197\",\n    \"upvotes\": 471\n  },\n  {\n    \"title\": \"Players with the most runs in ICC finals.\",\n    \"link\": \"https://i.redd.it/kkzb99tr9ane1.jpeg\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Odd-House3197\",\n    \"upvotes\": 114\n  },\n  {\n    \"title\": \"Centuries scored by each team in the CT.\",\n    \"link\": \"https://i.redd.it/k7isf64gp7ne1.jpeg\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"AdventurousComment41\",\n    \"upvotes\": 546\n  },\n  {\n    \"title\": \"ODI Cricket Is The Worst Format To Play: Moeen Ali\",\n    \"link\": \"https://www.cricket.com/news/odi-cricket-is-the-worst-format-to-play-moeen-ali-372025-1741343755957?fbclid=IwY2xjawI3tOBleHRuA2FlbQIxMQABHYwLggmiGywq6DMY4jmx3Cm_a1OjuRRJHZLbhWo4mVxInZ25SZldPQT-oQ_aem_yrAcnZSpBwCuzNooCcQN_g\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Puzzleheaded_Roof872\",\n    \"upvotes\": 154\n  },\n  {\n    \"title\": \"India’s monopoly will lead cricket to eventual ruin\",\n    \"link\": \"https://www.iol.co.za/sport/opinion/indias-monopoly-will-lead-cricket-to-eventual-ruin-65f9f3cb-1223-48be-a726-b775e584594a\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"ll--o--ll\",\n    \"upvotes\": 299\n  },\n  {\n    \"title\": \"Coverage of a school boy cricket match in Sri Lanka (146th Battle of the Blues encounter between Royal College Colombo and S.Thomas' College Mount Lavinia)\",\n    \"link\": \"https://i.redd.it/dvjkvxsb68ne1.jpeg\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"braveen10\",\n    \"upvotes\": 240\n  },\n  {\n    \"title\": \"Nasser Hussain’s warning to India ahead of final vs New Zealand: They won’t choke\",\n    \"link\": \"https://www.indiatoday.in/sports/cricket/story/champions-trophy-cricket-nasser-hussains-warning-to-india-ahead-of-final-vs-new-zealand-2690411-2025-03-07\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"5missedcallsfromBCCI\",\n    \"upvotes\": 82\n  },\n  {\n    \"title\": \"\\\"Hunger Is Even More\\\" - Pujara Eyeing India Comeback During England Tour\",\n    \"link\": \"https://www.cricket.com/news/hunger-is-even-more-cheteshwar-pujara-eyeing-india-comeback-during-england-tour-india-vs-england-england-vs-india-test-cricket-372025-1741330150834\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Valuable_Ad_6869\",\n    \"upvotes\": 67\n  },\n  {\n    \"title\": \"The \\\"Indian Dream\\\" : Robin Singh's unlikely journey from Trinidad to cricket glory\",\n    \"link\": \"https://www.reddit.com/gallery/1j5mbd7\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Noobmastter-3000\",\n    \"upvotes\": 64\n  },\n  {\n    \"title\": \"Champions Trophy outcome may determine Rohit Sharma's captaincy, BCCI contracts\",\n    \"link\": \"https://timesofindia.indiatimes.com/sports/cricket/icc-champions-trophy-2025/champions-trophy-outcome-may-determine-rohit-sharmas-captaincy-bcci-contracts/articleshow/118772570.cms\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"ll--o--ll\",\n    \"upvotes\": 248\n  },\n  {\n    \"title\": \"Savour whatever's left of the Rohit-Kohli magic in ODIs\",\n    \"link\": \"https://www.espn.in/cricket/story/_/id/44149471/ct25-final-india-vs-nz-enjoy-rohit-sharma-virat-kohli-magic-odis-lasts\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Noobmastter-3000\",\n    \"upvotes\": 34\n  },\n  {\n    \"title\": \"Winning IPL with RCB would be perfect finishing touch to his career: AB de Villiers on Virat Kohli\",\n    \"link\": \"https://timesofindia.indiatimes.com/sports/cricket/ipl/winning-ipl-with-rcb-would-be-perfect-finishing-touch-to-his-career-ab-de-villiers-on-virat-kohli/articleshow/118756491.cms\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"ll--o--ll\",\n    \"upvotes\": 188\n  },\n  {\n    \"title\": \"Henry's availability for Champions Trophy final 'a little bit unknown'\",\n    \"link\": \"https://www.espn.in/cricket/story/_/id/44146045/champions-trophy-final-ind-vs-nz-matt-henry-doubt-final-india-dubai\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Noobmastter-3000\",\n    \"upvotes\": 92\n  },\n  {\n    \"title\": \"Jamaica team with five internationals bundled out for 44 in 123-year low, as no batter crosses five\",\n    \"link\": \"https://www.wisden.com/cricket-news/jamaica-team-with-five-internationals-bundled-out-for-44-in-123-year-low-as-no-batter-crosses-five\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Mediocre-Clothes-886\",\n    \"upvotes\": 27\n  },\n  {\n    \"title\": \"WPL 2025: Harmanpreet Kaur engages in fiery spat with Sophie Ecclestone, BCCI fines her\",\n    \"link\": \"https://www.indiatoday.in/sports/story/cricket-wpl-2025-harmanpreet-kaur-fine-mumbai-indians-2690206-2025-03-07\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"5missedcallsfromBCCI\",\n    \"upvotes\": 18\n  },\n  {\n    \"title\": \"The Story of the Day Cricket became a Democracy (How Neil Perera et al broke the ECB &amp; ACB veto drama) &amp; and how we ended up in the current ICC timeline. Worth a watch to understand current ICC politics.\",\n    \"link\": \"https://www.youtube.com/watch?v=1aVaZwmG8W4&amp;t=30s\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"BigV95\",\n    \"upvotes\": 32\n  },\n  {\n    \"title\": \"'Semi-fresh' pitch for India vs New Zealand Champions Trophy final in Dubai\",\n    \"link\": \"https://timesofindia.indiatimes.com/sports/cricket/icc-champions-trophy-2025/semi-fresh-pitch-for-india-vs-new-zealand-champions-trophy-final-in-dubai/articleshow/118788876.cms\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"ll--o--ll\",\n    \"upvotes\": 15\n  },\n  {\n    \"title\": \"Match Thread: 17th Match - Delhi Capitals Women vs Gujarat Giants Women\",\n    \"link\": \"https://www.reddit.com/r/Cricket/comments/1j5me5o/match_thread_17th_match_delhi_capitals_women_vs/\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"cricket-match\",\n    \"upvotes\": 17\n  },\n  {\n    \"title\": \"‘More of a scrap’: Santner on playing India in Champions final\",\n    \"link\": \"https://www.nzherald.co.nz/sport/cricket/black-caps/india-v-new-zealand-champions-trophy-final-black-caps-set-for-scrap-on-slower-pitch-mitchell-santner/WDJDMQCJWVAWTHHAIW4LH3I3L4/\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Noobmastter-3000\",\n    \"upvotes\": 77\n  },\n  {\n    \"title\": \"Post Match Thread: 56th Match - Netherlands vs Namibia\",\n    \"link\": \"https://www.reddit.com/r/Cricket/comments/1j5q50m/post_match_thread_56th_match_netherlands_vs/\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"cricket-match\",\n    \"upvotes\": 12\n  },\n  {\n    \"title\": \"Will Smeed signs new deal to play red-ball cricket for Somerset\",\n    \"link\": \"https://www.espncricinfo.com/story/will-smeed-signs-deal-red-ball-cricket-somerset-1476272\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Sysadmin365sa\",\n    \"upvotes\": 11\n  },\n  {\n    \"title\": \"Kane Williamson in his last eight innings against South Africa (across all formats)\",\n    \"link\": \"https://i.redd.it/utjg2q32g2ne1.jpeg\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Puzzleheaded_Roof872\",\n    \"upvotes\": 960\n  },\n  {\n    \"title\": \"Fixtures announced for Hong Kong and Bahrain's T20I tri-series with Malaysia in Selangor\",\n    \"link\": \"https://i.redd.it/3gdmhex2f9ne1.jpeg\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"CarnivalSorts\",\n    \"upvotes\": 10\n  },\n  {\n    \"title\": \"The Pacific-France Women's T20I Championship to start from 10 March\",\n    \"link\": \"https://www.reddit.com/gallery/1j5gs91\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Appleseller80\",\n    \"upvotes\": 25\n  },\n  {\n    \"title\": \"McSweeney open to possibilities in bid to earn Test recall\",\n    \"link\": \"https://www.espn.in/cricket/story/_/id/44147648/south-australia-captain-nathan-mcsweeney-open-possibilities-bid-earn-test-recall\",\n    \"subreddit\": \"r/Cricket\",\n    \"author\": \"Noobmastter-3000\",\n    \"upvotes\": 7\n  }\n]",
+      "tool_call_id": "call_WHwjEuCYnDN7ziQg6NnIsuUp",
+      "id": "614f77fe-7974-4b7e-886d-68df5488a6bd",
+      "createdAt": "2025-03-07T16:47:44.748Z"
+    },
+    {
+      "role": "assistant",
+      "content": "It seems there are no specific posts from Donald Trump today on Reddit. However, here are some trending topics from the r/Cricket subreddit:\n\n1. [India's health ministry wants to ban promotion of tobacco and alcohol brands in the Indian Premier League (IPL)](https://www.bloomberg.com/news/articles/2025-03-07/india-health-ministry-tells-cricket-league-to-ban-tobacco-liquor-brand-ads) - Upvotes: 471\n2. [ODI Cricket Is The Worst Format To Play: Moeen Ali](https://www.cricket.com/news/odi-cricket-is-the-worst-format-to-play-moeen-ali-372025-1741343755957?fbclid=IwY2xjawI3tOBleHRuA2FlbQIxMQABHYwLggmiGywq6DMY4jmx3Cm_a1OjuRRJHZLbhWo4mVxInZ25SZldPQT-oQ_aem_yrAcnZSpBwCuzNooCcQN_g) - Upvotes: 154\n3. [Champions Trophy outcome may determine Rohit Sharma's captaincy, BCCI contracts](https://timesofindia.indiatimes.com/sports/cricket/icc-champions-trophy-2025/champions-trophy-outcome-may-determine-rohit-sharmas-captaincy-bcci-contracts/articleshow/118772570.cms) - Upvotes: 248\n\nIf you're looking for something specific about Trump, please let me know!",
+      "refusal": null,
+      "id": "a069b854-4abd-4a78-99ed-cfc2b637d4da",
+      "createdAt": "2025-03-07T16:47:52.221Z"
+    },
+    {
+      "role": "user",
+      "content": "can please tell me a joke with image",
+      "id": "edb10fd9-6393-4c72-ae1f-5023810e3430",
+      "createdAt": "2025-03-07T16:48:26.327Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_iqqUtQA0DgdFH1K4dhOaYYI4",
+          "type": "function",
+          "function": {
+            "name": "generate_image",
+            "arguments": "{\"prompt\":\"A funny cartoon of a cat wearing glasses, sitting at a desk with a computer, looking confused. The cat has a speech bubble saying, 'I thought I was signing up for a cat-astrophic event, not a webinar!'\"}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "d55da4d2-ccee-482c-b3a0-64eca7422ef0",
+      "createdAt": "2025-03-07T16:48:28.069Z"
+    },
+    {
+      "role": "tool",
+      "content": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-lSTTRj5LYS4XMywborWd3PFa/user-9I39YqfijOIGJaoJkxIcUmuG/img-yWBcBBijUPN17sJt5IkJcqmC.png?st=2025-03-07T15%3A48%3A46Z&se=2025-03-07T17%3A48%3A46Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-07T00%3A01%3A50Z&ske=2025-03-08T00%3A01%3A50Z&sks=b&skv=2024-08-04&sig=zgVB2y8nIuIvHFCIrO8J8%2BmH0HpfBuExB82N/m3o2K4%3D",
+      "tool_call_id": "call_iqqUtQA0DgdFH1K4dhOaYYI4",
+      "id": "e0538f7f-d160-4841-bef0-7bfe744c5492",
+      "createdAt": "2025-03-07T16:48:46.465Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a joke with an image for you:\n\n![Joke Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-lSTTRj5LYS4XMywborWd3PFa/user-9I39YqfijOIGJaoJkxIcUmuG/img-yWBcBBijUPN17sJt5IkJcqmC.png?st=2025-03-07T15%3A48%3A46Z&se=2025-03-07T17%3A48%3A46Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-07T00%3A01%3A50Z&ske=2025-03-08T00%3A01%3A50Z&sks=b&skv=2024-08-04&sig=zgVB2y8nIuIvHFCIrO8J8%2BmH0HpfBuExB82N/m3o2K4%3D)\n\nThe cat is saying, \"I thought I was signing up for a cat-astrophic event, not a webinar!\" Enjoy!",
+      "refusal": null,
+      "id": "3b51d58f-88ff-4894-bbe2-b2b68c24bac9",
+      "createdAt": "2025-03-07T16:48:53.048Z"
+    }
+  ]
 }

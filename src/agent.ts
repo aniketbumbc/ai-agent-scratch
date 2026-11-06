@@ -26,7 +26,7 @@ export const runAgent = async ({
     }
 
     if (response.tool_calls) {
-      console.log('  into tool')
+      //console.log('  into tool')
       const toolCall = response.tool_calls[0]
       logMessage(response)
       loader.update(`executing tool call ${toolCall.function.name}`)
